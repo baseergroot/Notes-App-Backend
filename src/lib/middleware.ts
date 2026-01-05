@@ -1,4 +1,4 @@
-import getUser from "./getUser.ts"
+import getUser from "./getUser.js"
 import dotenv from 'dotenv';
 dotenv.config();
 

@@ -1,4 +1,3 @@
-import getUser from "./getUser.ts";
 import dotenv from 'dotenv';
 dotenv.config();
 
