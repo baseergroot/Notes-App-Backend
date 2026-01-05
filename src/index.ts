@@ -4,7 +4,7 @@ import express, { json } from 'express';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
 import connectDB from './lib/MongoDB.js';
-import User from './models/user.ts';
+import User from './models/user.js';
 import { compare, hash } from 'bcryptjs';
 import middleware from './lib/middleware.js';
 import AuthMiddleware from './lib/authRoutesMiddleware.js';
