@@ -3,12 +3,12 @@ import cookieParser from 'cookie-parser';
 import express, { json } from 'express';
 import jwt from 'jsonwebtoken';
 import dotenv from 'dotenv';
-import connectDB from './lib/MongoDB.ts';
+import connectDB from './lib/MongoDB.js';
 import User from './models/user.ts';
 import { compare, hash } from 'bcryptjs';
-import middleware from './lib/middleware.ts';
-import AuthMiddleware from './lib/authRoutesMiddleware.ts';
-import Notes from './models/notes.ts';
+import middleware from './lib/middleware.js';
+import AuthMiddleware from './lib/authRoutesMiddleware.js';
+import Notes from './models/notes.js';
 import cors from 'cors'
 
 const app = express();
